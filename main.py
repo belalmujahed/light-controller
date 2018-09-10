@@ -17,8 +17,8 @@ apikey='4ba0eb07e2968c5abff2c74ae1f99bbc'
 url='http://api.openweathermap.org/data/2.5/weather?q=Dublin&APPID='+apikey
 
 def connect_wifi():
-    ssid = '786cf7ec48 2.4'
-    ssidpw = '9b7dd08f5F'
+    ssid = 'abc'
+    ssidpw = 'def'
     wifi = network.WLAN(network.STA_IF)
     wifi.active(True)
     wifi.connect(ssid, ssidpw)
